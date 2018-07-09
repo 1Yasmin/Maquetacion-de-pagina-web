@@ -62,7 +62,6 @@ body {
 
 .cajas a.short {
     align-items: center;
-    padding: 0px 20px;
     background: #fff;
     border-radius: 5px;
     display: flex;
@@ -329,7 +328,7 @@ h3 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 85vh;
     margin: 0;
     padding: 120px;
 }
@@ -396,8 +395,26 @@ h3 {
 }
 
 .ref-foot {
-    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.ref-foot:hover {
+    background-color: gray;
+}
+
+.division2 .ref-foot:hover {
+    background-color: gray;
+    padding: 10px 30px;
+}
+
+.ref-foot img,
+span {
+    margin: 0px 10px;
     padding: 0px;
+    align-items: baseline;
 }
 
 .ref-foot img {
